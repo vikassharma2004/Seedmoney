@@ -18,6 +18,7 @@ export default function App() {
       <Route path="/videos" element={<Video/>} />
       <Route path="/video/:id" element={<VideoDetail/>} />
       <Route path="/profile" element={<Profilepage/>} />
+      <Route path="/*" element={<h1>no page found</h1>} />
     </Routes>
     <Footer/>
     </>
